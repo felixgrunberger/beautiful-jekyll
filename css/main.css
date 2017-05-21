@@ -165,7 +165,7 @@ img {
   margin-top: -25px;
 }
 
-.avatar-hover {
+.avatar-container:hover {
   filter: grayscale(0%);
 }
 
