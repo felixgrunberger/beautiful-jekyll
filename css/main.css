@@ -155,6 +155,7 @@ img {
 
 .navbar-custom .avatar-container {
   opacity: 1;
+  filter: grayscale(90%);
   position: absolute;
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
