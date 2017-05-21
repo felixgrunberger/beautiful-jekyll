@@ -164,6 +164,11 @@ img {
   width: 50px;
   margin-top: -25px;
 }
+
+.avatar-hover {
+  filter: grayscale(0%);
+}
+
 .navbar-custom .avatar-container  .avatar-img-border {
   width: 100%;
   border-radius: 50%;
