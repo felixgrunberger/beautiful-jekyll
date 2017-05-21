@@ -8,6 +8,6 @@ tags: [first-post, exciting-stuff]
 This is my first post how exciting!
 
 	
-```{r}
+{% highlight r %}
 8+8
-```
+{% endhighlight %}
