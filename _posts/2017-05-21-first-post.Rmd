@@ -1,8 +1,7 @@
 ---
-layout: "post""
+layout: "post"
 title: "firstpost"
 date: "21 5 2017"
 tags: [first-post, exciting-stuff]
-output: html_document
 ---
 This is my first post how exciting!
