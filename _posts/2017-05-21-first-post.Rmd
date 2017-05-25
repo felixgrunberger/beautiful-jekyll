@@ -5,7 +5,7 @@ date: "21 5 2017"
 image: "/img/hello_world.jpeg"
 tags: [first-post, exciting-stuff]
 ---
-{% include read_time.html %}
+
 This is my first post how exciting!
 
 	
