@@ -42,7 +42,7 @@ avatar: "/img/felix 2.jpg"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Felix
+  name: Felix Grünberger
   email: "felix-gruenberger@web.de"
   facebook: fgrunberger  # eg. daattali
   github: felixgrunberger    # eg. daattali
@@ -53,7 +53,7 @@ author:
   xing: yourname      # eg. daattali
   stackoverflow: yourlink  # eg. "3943160/daattali"
   snapchat: yourname  # eg. daattali
-  instagram: yourname # eg. daattali
+  instagram: felixgruenberger # eg. daattali
   youtube: yourlink   # eg. user/daattali or channel/daattali
   spotify: yourname   # eg. daattali
   telephone: yourphone   # eg. +14159998888
