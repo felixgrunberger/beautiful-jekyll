@@ -249,6 +249,8 @@ img {
   }  
   .navbar-custom .nav .navlinks-container:hover {
     background: #222;
+    border: 1px solid #eee;
+    border-width: 0 1px 1px;
   }
   .navbar-custom .nav .navlinks-container:hover .navlinks-children {
     display: block;
