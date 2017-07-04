@@ -7,7 +7,7 @@ title: About me
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-  PhD student at the <a target="_blank" href = "http://www.uni-r.de/index.html.en">University of Regensburg</a> pursuing a Phd in <strong>Biology</strong>, working on gene regulatory networks in archaea. 
+  Currently I am a PhD student at the <a target="_blank" href = "http://www.uni-r.de/index.html.en">University of Regensburg</a> pursuing a Phd in <strong>Biology</strong>, working on gene regulatory networks in archaea. 
 </p>
 
 <p class="about-text">
