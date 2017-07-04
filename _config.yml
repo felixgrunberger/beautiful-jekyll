@@ -24,10 +24,7 @@ description: Personal Blog
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "home"
-  Blog:
-    - Stories: "stories"
-    - R for Data Science: "r"
+  Blog: "blog"
   About Me: "aboutme"
   
   
