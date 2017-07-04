@@ -17,7 +17,7 @@ I obtained my BSc and MSc in <strong>Biology</strong> from the University of Reg
 
 <p class="about-text">
 <span class="fa fa-code about-icon"></span>
-During my course of studies I became interested in bioinformatics and finished an extracurricular IT training offered by the University (bash scripting, C++, Python). At the end of last year, working on genomics in archaea, I switched from using my basic-level skills in Python to <a target="_blank" href = "https://www.r-project.org">R</a>. During the ongoing project I forced myself to write reproducible scripts with packages from the <a target="_blank" href = "https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html">tidy data universe</a> and learn how to build web apps with <a target="_blank" href = "https://shiny.rstudio.com">Shiny R</a>.
+During my course of studies I became interested in bioinformatics and finished an extracurricular IT training offered by the University (bash scripting, C++, Python). At the end of last year, working on genomics in archaea, I switched from using my basic-level skills in Python to <a target="_blank" href = "https://www.r-project.org">R</a>. During the ongoing project I forced myself to write reproducible scripts with packages from the <a target="_blank" href = "https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html">tidy data universe</a> and learn how to build interactive (and pretty) web apps with <a target="_blank" href = "https://shiny.rstudio.com">Shiny R</a>.
 </p>
 
 <p class="about-text">
