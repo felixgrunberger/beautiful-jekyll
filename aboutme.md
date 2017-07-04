@@ -1,6 +1,7 @@
 ---
-layout: page
-title: About me
+layout: "page"
+title: "About me"
+meta-title: "Felix Grünberger - PhD candidate Biology at the University of Regensburg"
 ---
 
 <div id="aboutme-section">
