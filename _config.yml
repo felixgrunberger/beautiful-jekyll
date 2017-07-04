@@ -24,7 +24,7 @@ description: Personal Blog
 
 # List of links in the navigation bar
 navbar-links:
-  Blog: "blog"
+  #Blog: "blog"
   About Me: "aboutme"
   
   
