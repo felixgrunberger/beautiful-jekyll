@@ -22,5 +22,5 @@ During my course of studies I became interested in bioinformatics and finished a
 
 <p class="about-text">
 <span class="fa fa-heart about-icon"></span>
-I´ very easily bored, so my interests are broad. Sports, HTML/CSS/JAVASCRIPT for fun (look at this blog...), photography (all pictures on the blog by myself), etc. 
+I´m very easily bored, so my interests are broad. Sports, HTML/CSS/JAVASCRIPT for fun (look at this blog...), photography (all pictures on the blog by myself), etc. 
 </p>
