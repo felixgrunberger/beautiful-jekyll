@@ -1,5 +1,5 @@
 ---
-layout: "stories"
+layout: "posts"
 title: "What we can learn from Netflix"
 date: "04 07 2017"
 image: "/img/header_netflix.jpg"
