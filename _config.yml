@@ -25,6 +25,10 @@ description: Personal Blog
 # List of links in the navigation bar
 navbar-links:
   #Blog: "blog"
+  Activity: 
+  - GitHub: "https://github.com/felixgrunberger"
+  - Twitter: "http://twitter.com/FelixGrunberger"
+  - LinkedIn: "http://www.linkedin.com/in/felix-grünberger-b93455111"
   About Me: "aboutme"
   
   
