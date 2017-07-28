@@ -7,6 +7,26 @@ use-site-title: true
 bigimg: "img/red_ratisbona_overlay_mid.jpg"
 ---
 
+<!-- Progress.js --> 
+<script>
+$(window).load(function(){
+  $(window).scroll(function() {
+    var wintop = $(window).scrollTop(), docheight = $('article').height(), winheight = $(window).height();
+    console.log(wintop);
+    var totalScroll = (wintop/(docheight-winheight))*100;
+    console.log("total scroll" + totalScroll);
+    $(".KW_progressBar").css("width",totalScroll+"%");
+  });
+
+});
+</script>
+<link href="/css/progress.css" rel="stylesheet" />
+<div class="KW_progressContainer">
+		<div class="KW_progressBar">
+
+		</div>
+	</div>
+
 <!-- Typed.js --> 
 <script src="/js/jquery-1.11.2.min.js"></script>
 <script src="/js/typed.js" type="text/javascript"></script>
