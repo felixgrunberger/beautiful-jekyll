@@ -653,7 +653,7 @@ table tr td :last-child {
 /* --- Code blocks --- */
 
 pre {
-  font-size: 11px;
+  font-size: 10px;
   line-height: 1.5em;
 }
 pre code {
