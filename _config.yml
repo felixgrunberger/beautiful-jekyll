@@ -209,12 +209,10 @@ prose:
 
 gems:
   - jekyll-paginate
-  
+  - jekyll-sitemap
 #add sitemap generator
-sitemap:
-  filename:"sitemap.xml"
-  #exclude: 
-  #include_posts: 
+
+  
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
