@@ -214,6 +214,6 @@ gems:
 gems:
 - jekyll-sitemap
   
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
+#add SEO for github pages
+plugins:
+  - jekyll-seo-tag
