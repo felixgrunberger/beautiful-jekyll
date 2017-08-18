@@ -36,6 +36,7 @@ bigimg: "img/red_ratisbona_overlay_mid.jpg"
 
 <div class="posts-list">
   {% for post in paginator.posts %}
+	{% seo %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
