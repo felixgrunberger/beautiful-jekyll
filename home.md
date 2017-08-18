@@ -7,3 +7,4 @@ use-site-title: true
 bigimg: "/img/red_ratisbona_overlay_mid.jpg"
 ---
 <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+{% seo %}
