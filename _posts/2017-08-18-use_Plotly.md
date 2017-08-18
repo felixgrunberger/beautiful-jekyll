@@ -4,7 +4,7 @@ title: "The power of interactive plots"
 subtitle: "Learn about interactive visualizations with R and plotly"
 date: "18 08 2017"
 categories: "blog"
-image: ""
+image: "/img/draft.gif"
 tags: [R, ggplot2, plotly, interactive plots]
 comments: "true"
 show-share: "true"
