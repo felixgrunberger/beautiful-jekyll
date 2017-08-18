@@ -88,9 +88,10 @@ ggplotly(gg_profit, tooltip = "text")           # yes, that´s all you need!
 ```
 <br> <br>
 <div>
-    <a href="https://plot.ly/~FelixGrunberger/35/?share_key=TgU9Hbh1SMkZ30ZB7D4WFZ" target="_blank" title="plotly_movies" style="display: block; text-align: center;"><img src="https://plot.ly/~FelixGrunberger/35.png?share_key=TgU9Hbh1SMkZ30ZB7D4WFZ" alt="plotly_movies" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~FelixGrunberger/35/?share_key=TgU9Hbh1SMkZ30ZB7D4WFZ" target="_blank" title="plotly_movies" style="display: block; text-align: center;"><img src="https://plot.ly/~FelixGrunberger/35.png?share_key=TgU9Hbh1SMkZ30ZB7D4WFZ" alt="plotly_movies" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="FelixGrunberger:35" sharekey-plotly="TgU9Hbh1SMkZ30ZB7D4WFZ" src="https://plot.ly/embed.js" async></script>
 </div>
+
 
  <br> <br> That was easy. When you hover over the data points you can read every single movie title (Best way to experience interactivity is of course not on your smartphone). <br> If you even want to go one step further, you can add an animation slider, to split up your movie data set. <br>
 
@@ -121,9 +122,10 @@ ggplotly(gg_profit_dynamic, tooltip = "text") %>%
 ```
 <br> <br>
 <div>
-    <a href="https://plot.ly/~FelixGrunberger/37/?share_key=jCTGskexxAN217YQcoPojW" target="_blank" title="plotly_movies_animated" style="display: block; text-align: center;"><img src="https://plot.ly/~FelixGrunberger/37.png?share_key=jCTGskexxAN217YQcoPojW" alt="plotly_movies_animated" style="max-width: 100%;width: 500px;"  width="500" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~FelixGrunberger/37/?share_key=jCTGskexxAN217YQcoPojW" target="_blank" title="plotly_movies_animated" style="display: block; text-align: center;"><img src="https://plot.ly/~FelixGrunberger/37.png?share_key=jCTGskexxAN217YQcoPojW" alt="plotly_movies_animated" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="FelixGrunberger:37" sharekey-plotly="jCTGskexxAN217YQcoPojW" src="https://plot.ly/embed.js" async></script>
-</div> <br>
+</div>
+<br>
 
 <br> <br>
 <h2>
