@@ -94,7 +94,7 @@ ggplotly(gg_profit, tooltip = "text")           # yes, that´s all you need!
  <br> <br> That was easy. When you hover over the data points you can read every single movie title (Best way to experience interactivity is of course not on your smartphone). <br> If you even want to go one step further, you can add an animation slider, to split up your movie data set. <br>
 
 ``` r
-# Alternative: Interactive & dynamic plot using plotly?  ------------------------------------------------------------------------------------
+# Alternative: Interactive & dynamic plot using plotly?  --------------------------------------------------------
 
 gg_profit_dynamic <- imdb_data %>%
   mutate(profit = gross - budget) %>%
