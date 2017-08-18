@@ -4,7 +4,7 @@ title: "The power of interactive plots"
 subtitle: "Learn about interactive visualizations with R and plotly"
 date: "18 08 2017"
 categories: "blog"
-image: "/img/draft.gif"
+image: ""
 tags: [R, ggplot2, plotly, interactive plots]
 comments: "true"
 show-share: "true"
@@ -25,11 +25,12 @@ At the beginning of the year, I remember myself staring at the screen, sitting o
 <h2>
 (Sometimes) Don´t be static
 </h2>
-Don´t get me wrong. Static graphics can be great and are inevitable for print media. And as long as you are working on two-dimensional data, it is not a problem at all and in fact more or less the only reasonable option you have.
-But, imagine adding another layer of information. And another one. And so on... (I think you get the point here)
+Don´t get me wrong. Static graphics can be great and are inevitable for print media.  
+And as long as you are working on two-dimensional data, it is not a problem at all and in fact more or less the only reasonable option you have.
+But, imagine adding another layer of information. And another one. And so on... (I think you get the point here)  
 Unfortunately, our imagination is not made for multi-dimensional data. How is it possible to include all of the additional information in your plot?
-In this case, it is common practice to use different colors, sizes, transparencies, shapes or to split up your plot.
-However, building a meaningful and informative static plot from multi-dimensional data can be quite hard. Why not consider how to make graphics interactive and benefit from all the clicking and zooming we are used to?
+In this case, it is common practice to use different colors, sizes, transparencies, shapes or to split up your plot.  
+However, building a meaningful and informative static plot from multi-dimensional data can be quite hard. Why not consider how to make graphics interactive and benefit from all the clicking and zooming we are used to?  
 Actually, it is not that hard using <a target="_blank" href="https://www.r-project.org">R</a> and the <a target="_blank" href="https://plot.ly/r/">Plotly R library</a>. This package is built upon the amazing <a target="_blank" href="https://d3js.org">D3.js</a>, which requires at least some skills in HTML, CSS and JavaScript. Therefore, <strong>Plotly</strong> brings major benefits, because it is easy to use and compatible with a number of languages (R, Python, MATLAB..). <br> <br>
 <h2>
 Example data set: Most profitable movies of all time
@@ -84,7 +85,7 @@ As we are already plotting three-dimensional data (profit, budget, year), the be
 
 ggplotly(gg_profit, tooltip = "text")           # yes, that´s all you need!
 ```
-
+<br> <br>
 <div>
     <a href="https://plot.ly/~FelixGrunberger/35/?share_key=TgU9Hbh1SMkZ30ZB7D4WFZ" target="_blank" title="plotly_movies" style="display: block; text-align: center;"><img src="https://plot.ly/~FelixGrunberger/35.png?share_key=TgU9Hbh1SMkZ30ZB7D4WFZ" alt="plotly_movies" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="FelixGrunberger:35" sharekey-plotly="TgU9Hbh1SMkZ30ZB7D4WFZ" src="https://plot.ly/embed.js" async></script>
@@ -114,10 +115,10 @@ ggplotly(gg_profit_dynamic, tooltip = "text") %>%
     frame = 100, transition = 0, easing = "elastic", redraw = FALSE
   ) %>%
   animation_slider(
-    currentvalue = list(prefix = "YEAR ", font = list(type ="Avenir"))
+    currentvalue = list(prefix = "YEAR ")
   )
 ```
-
+<br> <br>
 <div>
     <a href="https://plot.ly/~FelixGrunberger/37/?share_key=jCTGskexxAN217YQcoPojW" target="_blank" title="plotly_movies_animated" style="display: block; text-align: center;"><img src="https://plot.ly/~FelixGrunberger/37.png?share_key=jCTGskexxAN217YQcoPojW" alt="plotly_movies_animated" style="max-width: 100%;width: 500px;"  width="500" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="FelixGrunberger:37" sharekey-plotly="jCTGskexxAN217YQcoPojW" src="https://plot.ly/embed.js" async></script>
@@ -127,16 +128,16 @@ ggplotly(gg_profit_dynamic, tooltip = "text") %>%
 <h2>
 Takeaway: Make use of those two extra lines
 </h2>
-Why is it not more common to use interactive graphs?
-Probably because we have never learned how to do it, programming seems to be hard and eventually they cannot be used for publishing or printing.
-But as the way we are communicating is changing, I am sure that the proportion of interactive graphics will also change dramatically. So, if you are already using R and ggplot graphics package for exploratory data analysis, keep in mind:
+Why is it not more common to use interactive graphs?  
+Probably because we have never learned how to do it, programming seems to be hard and eventually they cannot be used for publishing or printing.  
+But as the way we are communicating is changing, I am sure that the proportion of interactive graphics will also change dramatically. So, if you are already using R and ggplot graphics package for exploratory data analysis, keep in mind:  
 You will only need to add <strong>two extra lines of code</strong> to make your graphics interactive.
-
+<br> <br> <br> <br>
 <h3>
 Interested in learning R plotly?
 </h3>
 <div id="aboutme-section">
 <p class="about-text">
-<span class="fa fa-code about-icon"></span> Find examples on how to make any kind of plot with the <a target="_blank" href="https://plot.ly/r/">Plotly R library</a>. <br> <br> <br>
+<span class="fa fa-code about-icon"></span> Find examples on how to make any kind of plot with the <a target="_blank" href="https://plot.ly/r/">Plotly R library</a>. 
 </p>
-
+<br> <br> <br><br> <br> <br>
