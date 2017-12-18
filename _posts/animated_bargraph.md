@@ -18,7 +18,7 @@ sitemap:
 ---
 
 Last week I saw this post on Twitter where <a target = "_blank" href = "https://twitter.com/ASpannbauer">Adam Spannbauer</a> tried to visualize an <a target="_blank" href = "https://twitter.com/ASpannbauer/status/940981263246221312">animated 'growing' bar graph in R</a>. Pretty impressive!  
-![ASpannbauer\_growing\_barchart](/Users/f/Documents/R/website/animated_bargraph/aspannbauer_bar.gif)
+![ASpannbauer\_growing\_barchart](/img/aspannbauer_bar.gif)
 <br>
 <h2>
 Is an animated graph contributing to understanding?
