@@ -10,7 +10,7 @@ comments: "true"
 show-share: "true"
 show-subscribe: "true"
 categories: "animated_bargraph"
-description:Animation of bargraphs based on Twitter post by Adam Spannbauer
+description: Animation of bargraphs based on Twitter post by Adam Spannbauer
 sitemap: 
   lastmod: 2017-12-18
   priority: 1
