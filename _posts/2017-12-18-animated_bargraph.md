@@ -41,7 +41,7 @@ In general, animations should be used very wisely, but can be a great option for
 <h2>
 Toy example of a possible solution
 </h2>
-I will guide you trough the steps necessary to generate an animated bar graph in R. Down here you can find the R code, which you can also copy from my <h target="_blank" href = "https://gist.github.com/felixgrunberger/337619d515d2f96f89887b4d880d3a2a">Github repository</a>. I should mention that I only had to modify a few lines from <a target = "_blank" href = "https://twitter.com/ASpannbauer">@SPannbauers</a> code.
+I will guide you trough the steps necessary to generate an animated bar graph in R. Down here you can find the R code, which you can also copy from my <a target="_blank" href = "https://gist.github.com/felixgrunberger/337619d515d2f96f89887b4d880d3a2a">Github repository</a>. I should mention that I only had to modify a few lines from <a target = "_blank" href = "https://twitter.com/ASpannbauer">@SPannbauers</a> code.
 
 ``` r
 # 1. step: Load all packages we need ----------------------------------------------------------------------------
