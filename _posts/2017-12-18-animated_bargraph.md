@@ -21,8 +21,10 @@ Last week I saw this post on Twitter where <a target = "_blank" href = "https://
 <br><br>
 ![ASpannbauer\_growing\_barchart](/img/aspannbauer_bar.gif)
 <br>
+<br>
+<br>
 <h2>
-Is an animated graph contributing to understanding?
+Is an animated graph contributing to a better understanding?
 </h2>
 From the comments and a related <a target="_blank" href = "https://twitter.com/ASpannbauer/status/941018212103327749">second post</a> it became clear, that this animation was visually appealing, but in no way contributing to a better understanding of the data behind the graph.
 So I sat down and thought about <strong>requirements</strong> for an animated bar chart that can be embedded in a presentation and contribute (maybe) to a better understanding:
