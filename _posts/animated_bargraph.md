@@ -26,6 +26,7 @@ Is an animated graph contributing to understanding?
 </h2>
 From the comments and a related <a target="_blank" href = "https://twitter.com/ASpannbauer/status/941018212103327749">second post</a> it became clear, that this animation was visually appealing, but in no way contributing to a better understanding of the data behind the graph.
 So I sat down and thought about <strong>requirements</strong> for an animated bar chart that can be embedded in a presentation and contribute (maybe) to a better understanding:
+<br>
 
 -   all bars should start simultaneously from the bottom and grow to the top with the same speed
 -   when a sample reaches its maximum value it should stop growing
@@ -77,7 +78,7 @@ split_dt_fill2 <- lapply(split_dt_fill, function(dti){
   }
 })
 
-#bin together all the different samples (or 'time' points)
+#bind together all the different samples (or 'time' points)
 dt_fill = rbindlist(split_dt_fill2)
 
 #id each row as its own frame for every 'time' | add column 'frame'
