@@ -17,7 +17,7 @@ sitemap:
   changefreq: 'monthly'
 ---
 
-Last week I saw this post on Twitter where <a target = "_blank" href = "https://twitter.com/ASpannbauer">Adam Spannbauer</a> tried to visualize an <a target="_blank" href = "https://twitter.com/ASpannbauer/status/940981263246221312">animated 'growing' bar graph in R</a>. Pretty impressive!  
+Last week I saw this post on Twitter where <a target = "_blank" href = "https://twitter.com/ASpannbauer">Adam Spannbauer</a> visualized an <a target="_blank" href = "https://twitter.com/ASpannbauer/status/940981263246221312">animated 'growing' bar graph in R</a>. Pretty impressive!  
 <br><br>
 ![ASpannbauer\_growing\_barchart](/img/aspannbauer_bar.gif)
 <br>
