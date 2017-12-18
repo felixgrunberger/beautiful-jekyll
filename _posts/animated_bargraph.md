@@ -23,7 +23,7 @@ Last week I saw this post on Twitter where <a target = "_blank" href = "https://
 <h2>
 Is an animated graph contributing to understanding?
 </h2>
-From the comments and a related <a target="_blank" href = "https://twitter.com/ASpannbauer/status/941018212103327749"second post</a> it became clear, that this animation was visually appealing, but in no way contributing to a better understanding of the data behind the graph.
+From the comments and a related <a target="_blank" href = "https://twitter.com/ASpannbauer/status/941018212103327749">second post</a> it became clear, that this animation was visually appealing, but in no way contributing to a better understanding of the data behind the graph.
 So I sat down and thought about <strong>requirements</strong> for an animated bar chart that can be embedded in a presentation and contribute (maybe) to a better understanding:
 
 -   all bars should start simultaneously from the bottom and grow to the top with the same speed
@@ -37,7 +37,7 @@ In general, animations should be used very wisely, but can be a great option for
 <h2>
 Toy example of a possible solution
 </h2>
-I will guide you trough the steps necessary to generate an animated bar graph in R. Down here you can find the R code, which you can also copy from my <h target="_blank" href = "https://gist.github.com/felixgrunberger/337619d515d2f96f89887b4d880d3a2a">Github repository</a>. I should mention that I only had to modify a few lines from @SPannhubers code.
+I will guide you trough the steps necessary to generate an animated bar graph in R. Down here you can find the R code, which you can also copy from my <h target="_blank" href = "https://gist.github.com/felixgrunberger/337619d515d2f96f89887b4d880d3a2a">Github repository</a>. I should mention that I only had to modify a few lines from <a target = "_blank" href = "https://twitter.com/ASpannbauer">@SPannbauers</a> code.
 
 ``` r
 # 1. step: Load all packages we need ----------------------------------------------------------------------------
