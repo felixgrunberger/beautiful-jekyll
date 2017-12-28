@@ -25,7 +25,6 @@ description: Personal Blog of Felix Grünberger (PhD candidate in Biology, progr
 # List of links in the navigation bar
 navbar-links:
   #Blog: "blog"
-  Insta: "insta"  
   Activity: 
   - GitHub: "https://github.com/felixgrunberger"
   - Twitter: "http://twitter.com/FelixGrunberger"
