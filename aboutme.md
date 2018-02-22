@@ -27,6 +27,8 @@ I´m very easily bored, so my interests are broad. Sports, HTML/CSS/JAVASCRIPT f
 </p>
 
 
+<link rel="stylesheet" type="text/css" href="parallax.css">
+
 <div class="parallax">
     <div class="parallax__layer parallax__layer__0">
         <img src="https://sam.beckham.io/images/articles/firewatch/layer_0.png" />
