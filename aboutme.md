@@ -3,6 +3,7 @@ layout: "page"
 title: "About me"
 meta-title: "Felix Grünberger - PhD candidate Biology at the University of Regensburg"
 ---
+@import "{{ parallax.css }}";
 
 <div id="aboutme-section">
 
@@ -26,8 +27,6 @@ During my course of studies I became interested in bioinformatics and finished a
 I´m very easily bored, so my interests are broad. Sports, HTML/CSS/JAVASCRIPT for fun (look at this blog...), photography (all pictures on the blog by myself), etc. 
 </p>
 
-
-<link rel="stylesheet" type="text/css" href="css/parallax.css">
 
 <div class="parallax">
     <div class="parallax__layer parallax__layer__0">
