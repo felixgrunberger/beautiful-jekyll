@@ -3,7 +3,6 @@ layout: "page"
 title: "About me"
 meta-title: "Felix Grünberger - PhD candidate Biology at the University of Regensburg"
 ---
-@import "{{ parallax.css }}";
 
 <div id="aboutme-section">
 
@@ -27,28 +26,3 @@ During my course of studies I became interested in bioinformatics and finished a
 I´m very easily bored, so my interests are broad. Sports, HTML/CSS/JAVASCRIPT for fun (look at this blog...), photography (all pictures on the blog by myself), etc. 
 </p>
 
-
-<div class="parallax">
-    <div class="parallax__layer parallax__layer__0">
-        <img src="https://sam.beckham.io/images/articles/firewatch/layer_0.png" />
-    </div>
-    <div class="parallax__layer parallax__layer__1">
-        <img src="https://sam.beckham.io/images/articles/firewatch/layer_1.png" />
-    </div>
-    <div class="parallax__layer parallax__layer__2">
-        <img src="https://sam.beckham.io/images/articles/firewatch/layer_2.png" />
-    </div>
-    <div class="parallax__layer parallax__layer__3">
-        <img src="https://sam.beckham.io/images/articles/firewatch/layer_3.png" />
-    </div>
-    <div class="parallax__layer parallax__layer__4">
-        <img src="https://sam.beckham.io/images/articles/firewatch/layer_4.png" />
-    </div>
-    <div class="parallax__layer parallax__layer__5">
-        <img src="https://sam.beckham.io/images/articles/firewatch/layer_5.png" />
-    </div>
-    <div class="parallax__layer parallax__layer__6">
-        <img src="https://sam.beckham.io/images/articles/firewatch/layer_6.png" />
-    </div>
-    <div class="parallax__cover"></div>
-</div>
