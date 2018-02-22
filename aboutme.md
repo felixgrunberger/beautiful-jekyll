@@ -27,7 +27,7 @@ I´m very easily bored, so my interests are broad. Sports, HTML/CSS/JAVASCRIPT f
 </p>
 
 
-<link rel="stylesheet" type="text/css" href="parallax.css">
+<link rel="stylesheet" type="text/css" href="css/parallax.css">
 
 <div class="parallax">
     <div class="parallax__layer parallax__layer__0">
