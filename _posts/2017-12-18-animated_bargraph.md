@@ -1,5 +1,5 @@
 ---
-layout: "page"
+layout: "post"
 title: "Animated bar graphs in R"
 subtitle: "How a simple animation can (maybe) contribute to a better understanding of data"
 date: "18 12 2017 14:30:00 +0100"
