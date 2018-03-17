@@ -11,10 +11,6 @@ show-share: "true"
 show-subscribe: "true"
 categories: "animated_bargraph"
 description: Animation of bargraphs based on Twitter post by Adam Spannbauer
-sitemap: 
-  lastmod: 2017-12-18
-  priority: 1
-  changefreq: 'monthly'
 ---
 
 Last week I saw this post on Twitter where <a target = "_blank" href = "https://twitter.com/ASpannbauer">Adam Spannbauer</a> visualized an <a target="_blank" href = "https://twitter.com/ASpannbauer/status/940981263246221312">animated 'growing' bar graph in R</a>. Pretty impressive!  
