@@ -2,7 +2,7 @@
 layout: "post"
 title: "Animated bar graphs in R"
 subtitle: "How a simple animation can (maybe) contribute to a better understanding of data"
-date: "2017-12-18"
+date: 2017-12-18 10:00:00 +0100
 categories: "blog"
 image: "/img/animated_bargraph.gif"
 tags: [R, ggplot2, gganimate, bargraph, animation]
