@@ -1,13 +1,5 @@
 @import url("pygment_highlights.css");
-/* --- TEXT FONTS --- */
-/* make a new text font*/
-@font-face {
-    font-family: 'pitch';
-    src: url("../fonts/PitchWeb-Regular.eot") format("embedded-opentype"), url("../fonts/PitchWeb-Regular.woff2") format("woff2"), url("../fonts/PitchWeb-Regular.woff") format("woff");
-    font-weight: 400;
-    font-style: normal
-}
-/* ----------------------------------------------------------------- */
+
 /* --- General --- */
 
 body {
@@ -16,18 +8,7 @@ body {
   color: #404040;
   position: relative;
   background: #FFF;
-  /*font-family: "pitch";
-  font-size: 15px;
-  line-height: 24px;
-  width: 408px;
-  position: absolute;
-  z-index: 4;
-  left: 185px;
-  bottom: 300px;
-  color: black;
-  letter-spacing: -0.5px*/
 }
-
 p {
   line-height: 1.5;
   margin: 30px 0;
@@ -39,13 +20,10 @@ p a {
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
-  /*font-family: "pitch";
-  font-size: 15px;*/
 }
 a {
   /*color: #008AFF;*/
 }
-
 a:hover,
 a:focus {
   color: #fb7e7e;
@@ -121,8 +99,7 @@ img {
 .navbar-custom {
   background: #222;/*#F5F5F5;*/
   border-bottom: 0; /*1px solid #EAEAEA;*/
-  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-  font-family: 'pitch';
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .navbar-custom .nav li a {
@@ -783,6 +760,3 @@ td.gutter {
     display: none;
   }
 }
-
-
-
