@@ -3,7 +3,8 @@
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
-url: "https://felixgrunberger.com"
+url: "https://felixgrunberger.github.io"
+enforec_ssl: "felixgrunberger.com"
 baseurl: ""
 
 # Brief name and description of the site
