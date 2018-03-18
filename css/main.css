@@ -1,4 +1,11 @@
 @import url("pygment_highlights.css");
+/* --- new font faces ---*/
+@font-face {
+    font-family: 'Circular-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
 
 /* --- General --- */
 
@@ -97,9 +104,13 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #222;/*#F5F5F5;*/
+  background: #ffffff /* #222;*/ /*#F5F5F5;*/
   border-bottom: 0; /*1px solid #EAEAEA;*/
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font-family: "Circular-Bold";
+  font-size: 75px;
+  line-height: 75px;
+  letter-spacing: -2px
 }
 
 .navbar-custom .nav li a {
