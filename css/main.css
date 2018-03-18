@@ -1,5 +1,13 @@
 @import url("pygment_highlights.css");
-
+/* --- TEXT FONTS --- */
+/* make a new text font*/
+@font-face {
+    font-family: 'pitch';
+    src: url("../fonts/PitchWeb-Regular.eot") format("embedded-opentype"), url("../fonts/PitchWeb-Regular.woff2") format("woff2"), url("../fonts/PitchWeb-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+/* ----------------------------------------------------------------- */
 /* --- General --- */
 
 body {
@@ -776,13 +784,7 @@ td.gutter {
   }
 }
 
-/* make a new text font*/
-@font-face {
-    font-family: 'pitch';
-    src: url("../fonts/PitchWeb-Regular.eot") format("embedded-opentype"), url("../fonts/PitchWeb-Regular.woff2") format("woff2"), url("../fonts/PitchWeb-Regular.woff") format("woff");
-    font-weight: 400;
-    font-style: normal
-}
+
 
 #text {
     font-family: "pitch";
