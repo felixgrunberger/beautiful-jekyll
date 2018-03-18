@@ -768,3 +768,16 @@ td.gutter {
     font-weight: 400;
     font-style: normal
 }
+
+#text {
+    font-family: "pitch";
+    font-size: 15px;
+    line-height: 24px;
+    width: 408px;
+    position: absolute;
+    z-index: 4;
+    left: 185px;
+    bottom: 300px;
+    color: black;
+    letter-spacing: -0.5px
+}
