@@ -11,12 +11,12 @@
 /* --- General --- */
 
 body {
-  /*font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
   color: #404040;
   position: relative;
-  background: #FFF;*/
-  font-family: "pitch";
+  background: #FFF;
+  /*font-family: "pitch";
   font-size: 15px;
   line-height: 24px;
   width: 408px;
@@ -25,7 +25,7 @@ body {
   left: 185px;
   bottom: 300px;
   color: black;
-  letter-spacing: -0.5px
+  letter-spacing: -0.5px*/
 }
 
 p {
@@ -37,10 +37,10 @@ p a {
   color: #404040;
 }
 h1,h2,h3,h4,h5,h6 {
-  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;*/
-  font-family: "pitch";
-  font-size: 15px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  /*font-family: "pitch";
+  font-size: 15px;*/
 }
 a {
   /*color: #008AFF;*/
@@ -786,15 +786,3 @@ td.gutter {
 
 
 
-#text {
-    font-family: "pitch";
-    font-size: 15px;
-    line-height: 24px;
-    width: 408px;
-    position: absolute;
-    z-index: 4;
-    left: 185px;
-    bottom: 300px;
-    color: black;
-    letter-spacing: -0.5px
-}
