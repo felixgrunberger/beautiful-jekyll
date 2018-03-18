@@ -29,12 +29,15 @@ p a {
   color: #404040;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;*/
+  font-family: "pitch";
+  font-size: 15px;
 }
 a {
   /*color: #008AFF;*/
 }
+
 a:hover,
 a:focus {
   color: #fb7e7e;
