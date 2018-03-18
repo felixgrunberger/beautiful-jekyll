@@ -1,26 +1,29 @@
-# --- General options --- #
+# --- Serving options --- #
 
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
-# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "https://felixgrunberger.github.io"
-enforce_ssl: "felixgrunberger.com"
+url: "https://felixgrunberger.com"
 baseurl: ""
 
-# If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
-
-# Of course don't forget to change the username and projectname to YOUR username and project
-
-# Name of website
+# Brief name and description of the site
 title: Felix Grünberger
-
-# Short description of your site
 description: Personal Blog of Felix Grünberger (PhD candidate in Biology, programming beginner)
 
+# --- Outputting options --- #
+# More information can be found on Jekyll's site
+timezone: "Germany/Berlin"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+paginate_path: "/page:num/"
+
 # --- Navigation bar options --- #
+
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/img/profile3.jpg"
 
 # List of links in the navigation bar
 navbar-links:
@@ -31,17 +34,7 @@ navbar-links:
   - LinkedIn: "http://www.linkedin.com/in/felix-grünberger-b93455111"
   - Strava: "strava"
   About Me: "aboutme"
-
-  
-  
-
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/img/profile3.jpg"
-
-# If you want to have an image logo in the top-left corner instead of the title text,
-# then specify the following parameter
-# title-img: /path/to/image
+nav-search: "search"
 
 # --- Footer options --- #
 
@@ -63,7 +56,7 @@ author:
   youtube: yourlink   # eg. user/daattali or channel/daattali
   spotify: yourname   # eg. daattali
   telephone: yourphone   # eg. +14159998888
-
+  
 # Select which links to show in the footer
 footer-links-active:
   rss: false
@@ -81,8 +74,7 @@ footer-links-active:
   youtube: false
   spotify: false
   telephone: false
-
-# Select which share links to show in posts
+  
 share-links-active:
   twitter: true
   facebook: true
@@ -91,42 +83,20 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "felixgrunberger.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "felixgrunberger.com" 
 
 # --- Misc --- #
+
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 disqus: "felixgrunberger-com"
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-98633007-2"
+google_analytics: "UA-98633007-2"  # Your Google Analytics ID
 
-# Google Tag Manager ID
-#gtm: ""
-
-# Facebook App ID
-# fb_app_id: ""
-
-# Excerpt Word Length
-# Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
-
-# Character used to separate site title and description in HTML document title
-# and RSS feed title
-title-separator: "-"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
-# Output options (more information on Jekyll's site)
-timezone: "Germany/Berlin"
-markdown: kramdown
-highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
-
-kramdown:
-  input: GFM
-
-# Default YAML values (more information on Jekyll's site)
+# Default YAML values (more information on Jekyll's site)  
 defaults:
   -
     scope:
@@ -134,8 +104,12 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
+      comments: true  # add comments to all blog posts 		
+      show-share: true # add sharing buttons to all blog posts		
+      show-subscribe: true # add subscribe email to all blog posts
+      addthis-plugin: true
+      carbonads: true
+      datacampcourse: true
   -
     scope:
       path: "" # all files
@@ -143,7 +117,7 @@ defaults:
       layout: "page"
       show-avatar: true
 
-# Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
+# Use tags index page and make tags on each post clickable
 link-tags: false
 
 # Exclude these files from production site
@@ -156,6 +130,17 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
+
+gems:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  
+#add SEO for github pages
+plugins_dir:
+  - jekyll-seo-tag
+
 
 # prose.io config
 prose:
@@ -209,13 +194,4 @@ prose:
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
 
-gems:
-  - jekyll-paginate
-  
-#add sitemap generator
-gems:
-- jekyll-sitemap
-  
-#add SEO for github pages
-plugins:
-  - jekyll-seo-tag
+

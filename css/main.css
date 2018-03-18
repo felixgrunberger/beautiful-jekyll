@@ -1,20 +1,46 @@
 @import url("pygment_highlights.css");
+
 /* --- new font faces ---*/
 @font-face {
     font-family: 'Circular-Bold';
-    src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+    src: url("/fonts/circularstd-bold-webfont.woff2") format("woff2");
     font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Courier-Pitch';
+    src: url("/fonts/courier_10_pitch_regular.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pitch';
+    src: url("../fonts/PitchWeb-Regular.woff2") format("woff2");
+    font-weight: 400;
     font-style: normal
 }
 
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 18px;
+  /*font-family: 'Lora', 'Times New Roman', serif;*/
+  /*font-size: 18px;
   color: #404040;
   position: relative;
   background: #FFF;
+  font-family: "Courier-Pitch";*/
+  /**/
+  background: #FFF;
+  
+  font-family: "pitch";
+  font-size: 15px;
+  line-height: 24px;
+  position: relative;
+  z-index: 4;
+  color: black;
+  letter-spacing: -0.5px
 }
 p {
   line-height: 1.5;
@@ -107,13 +133,16 @@ img {
   background: #ffffff /* #222;*/ /*#F5F5F5;*/
   border-bottom: 0; /*1px solid #EAEAEA;*/
   /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-  font-family: "Circular-Bold";
+  font-family: 'Circular-Bold';
+  text-transform: uppercase;
+  color: #000;
   font-size: 75px;
   line-height: 75px;
   letter-spacing: -2px
 }
 
 .navbar-custom .nav li a {
+  font-family: "Circular-Bold";
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
@@ -122,7 +151,7 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
-  color: #EEE;/*#404040;*/
+  color: #000;/*#404040;*/
 }
 
 .navbar-custom .navbar-brand:hover,
