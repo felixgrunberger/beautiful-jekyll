@@ -762,18 +762,9 @@ td.gutter {
 }
 
 /* make a new text font*/
-.text {
-    text-align: center;
-    font-family: "Courier New", Courier, monospace;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 36px;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-    color: #fff;
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    z-index: 2;
-    transform: translate(0px, -50%)
+@font-face {
+    font-family: 'pitch';
+    src: url("../fonts/PitchWeb-Regular.eot") format("embedded-opentype"), url("../fonts/PitchWeb-Regular.woff2") format("woff2"), url("../fonts/PitchWeb-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal
 }
