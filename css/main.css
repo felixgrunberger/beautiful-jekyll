@@ -113,7 +113,8 @@ img {
 .navbar-custom {
   background: #222;/*#F5F5F5;*/
   border-bottom: 0; /*1px solid #EAEAEA;*/
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font-family: "pitch";
 }
 
 .navbar-custom .nav li a {
