@@ -225,7 +225,7 @@ img {
 .navbar-custom .avatar-container {
   opacity: 1;
   position: absolute;
-  filter: grayscale(20%);
+  filter: grayscale(0%);
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
@@ -312,7 +312,8 @@ img {
 
 @media only screen and (max-width: 767px) {
   .navbar-custom .nav .navlinks-container.show-children {
-    background: #eee;
+    background: #ffffff;
+    line-height: 3;
   }
   .navbar-custom .nav .navlinks-container.show-children .navlinks-children {
     display: block;
