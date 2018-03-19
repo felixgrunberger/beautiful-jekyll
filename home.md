@@ -1,11 +1,11 @@
 ---
-layout: page
-title: Hi, I´m Felix
-subtitle: ...and this is my personal blog
-meta-title: Felix
+layout: post
+title: "from bench to bioinformatics"
+subtitle: a guide
+meta-title: bioinformatics
 use-site-title: true
-bigimg: "/img/red_ratisbona_overlay_mid.jpg"
+bigimg: "/img/bench_bioinformatics.png"
 ---
 
+so let me tell you one thing
 <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-

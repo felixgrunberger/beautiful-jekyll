@@ -16,6 +16,20 @@
 }
 
 @font-face {
+    font-family: 'Marker';
+    src: url("/fonts/PermanentMarker.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'blaze';
+    src: url("/fonts/BLAZI.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'pitch';
     src: url("../fonts/PitchWeb-Regular.woff2") format("woff2");
     font-weight: 400;
@@ -32,10 +46,9 @@ body {
   background: #FFF;
   font-family: "Courier-Pitch";*/
   /**/
-  background: #FFF;
-  
+  background: #FFFFFF;
   font-family: "pitch";
-  font-size: 15px;
+  font-size: 18px;
   line-height: 24px;
   position: relative;
   z-index: 4;
@@ -45,13 +58,28 @@ body {
 p {
   line-height: 1.5;
   margin: 30px 0;
+  background: #FFFFFF;
+  font-family: "pitch";
+  font-size: 18px;
+  line-height: 24px;
+  position: relative;
+  z-index: 4;
+  color: black;
+  letter-spacing: -0.5px
 }
 p a {
   text-decoration: underline;
   color: #404040;
 }
-h1,h2,h3,h4,h5,h6 {
+h1 {
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font-family: "marker";
+  font-weight: 800;
+}
+
+h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /*font-family: "marker";*/
   font-weight: 800;
 }
 a {
@@ -129,36 +157,37 @@ img {
 
 /* --- Navbar --- */
 
+/* left upper corner */
 .navbar-custom {
-  background: #ffffff /* #222;*/ /*#F5F5F5;*/
-  border-bottom: 0; /*1px solid #EAEAEA;*/
+  background: linear-gradient(to bottom right, #FFFFFF, #f5f5f5); /* #222;*/ /*#F5F5F5;*/
+  border-bottom: 0;/*1px solid black; /*1px solid #EAEAEA;*/
   /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   font-family: 'Circular-Bold';
   text-transform: uppercase;
-  color: #000;
-  font-size: 75px;
-  line-height: 75px;
-  letter-spacing: -2px
+  color: #404040;
+  font-size: 35px;
+  line-height: 65px;
+  letter-spacing: 5px
 }
 
 .navbar-custom .nav li a {
   font-family: "Circular-Bold";
   text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 1px;
+  font-size: 13px;
+  letter-spacing: 3px;
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
-  font-weight: 800;
-  color: #000;/*#404040;*/
+  font-weight: 10;
+  color: #404040;
 }
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #fb7e7e;
+  color: #FF5963;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -196,7 +225,7 @@ img {
 .navbar-custom .avatar-container {
   opacity: 1;
   position: absolute;
-  filter: grayscale(90%);
+  filter: grayscale(20%);
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
@@ -260,21 +289,27 @@ img {
 }
 .navbar-custom .nav .navlinks-parent:after {
   content: " \25BC";
+
 }
 .navbar-custom .nav .navlinks-children {
   width: 100%;
   display: none;
   word-break: break-word;
 }
+
+
 .navbar-custom .nav .navlinks-container .navlinks-children a {
   display: block;
-  padding: 10px;
-  padding-left: 30px;
-  background: #222;
+  background-color: #FFFFFF;
+  padding: 0px;
+  padding-left: 0px;
   text-decoration: none !important;
-  border-width: 0 1px 1px 1px;
+  /*border-width: 1px 1px 1px 1px;*/
   font-weight: normal;
 }
+
+
+
 @media only screen and (max-width: 767px) {
   .navbar-custom .nav .navlinks-container.show-children {
     background: #eee;
@@ -286,10 +321,12 @@ img {
 @media only screen and (min-width: 768px) {
   .navbar-custom .nav .navlinks-container {
     text-align: center;
+    line-height: 3;
   }  
   .navbar-custom .nav .navlinks-container:hover {
-    background: #222;
-    border: 1px solid #eee;
+    background: linear-gradient(to bottom right, #FFFFFF, #f5f5f5);
+    color: #ffffff;
+    border: 0px solid #eee;
   }
   .navbar-custom .nav .navlinks-container:hover .navlinks-children {
     display: block;
@@ -299,16 +336,19 @@ img {
   }
   .navbar-custom .nav .navlinks-container .navlinks-children a {
     padding-left: 10px;
-    border: 1px solid #eaeaea;
-    border-width: 0 1px 1px;
+    /*border: 1px solid #eaeaea;
+    border-width: 0 1px 1px;*/
   }
 }
+
+
+
 
 /* --- Footer --- */
 
 footer {
   padding: 30px 0;
-  background: #F5F5F5;
+  background: #FFFFFF;
   border-top: 1px #EAEAEA solid;
   margin-top: 50px;
   font-size: 14px;
@@ -323,13 +363,14 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  font-family: Open Sans;
+  font-family: "pitch";
   text-align: center;
   margin-bottom: 0;
 }
 footer .theme-by {
   text-align: center;
   margin: 10px 0 0;
+  font-size:14px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -384,12 +425,14 @@ footer .theme-by {
 .post-preview .post-meta,
 .post-heading .post-meta {
   color: #808080;
+  background-color: transparent;
   font-size: 18px;
   font-style: italic;
   margin: 0 0 10px;
 }
 .post-preview .post-entry {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "pitch",'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 .post-entry-container {
   display: inline-block;
@@ -414,7 +457,7 @@ footer .theme-by {
   width: 192px;
 }
 .post-preview .post-read-more {
-  font-weight: 800;
+  font-weight: 1000;
 }
 
 @media only screen and (min-width: 768px) {
@@ -426,7 +469,7 @@ footer .theme-by {
 /* --- Tags --- */
 
 .blog-tags {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "pitch" /*'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   color: #999;
   font-size: 15px;
   margin-bottom: 30px;
