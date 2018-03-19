@@ -177,6 +177,8 @@ img {
   letter-spacing: 3px;
 }
 
+
+
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 10;
@@ -208,6 +210,11 @@ img {
 .navbar-custom.top-nav-short .navbar-brand-logo img {
   height: 40px;
 }
+
+.navbar-brand {
+  font-family: "Circular-Bold";
+  font-size: 13px;
+} 
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {
