@@ -1054,7 +1054,7 @@ td.gutter {
   }  
 } 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .typed-js-hide {
     float: left;
     margin: 10px auto 5px 20px;
@@ -1088,5 +1088,23 @@ td.gutter {
   .navlinks-parent {
     background-color: #494949;
   }
+}
+
+@media only screen and (orientation: landscape) { 
+  .navbar-custom .nav .navlinks-container .navlinks-children a {
+    padding-left: 10px;
+    background-color: #E85A4F;
+    color: #FFFFFF;
+    /*border: 1px solid #eaeaea;
+    border-width: 0 1px 1px;*/
+  }
+  .nav .navlinks-container .navlinks-children a:hover {
+  color: #494949;
+  background-color: #E98074;
+  }
+  .navlinks-parent {
+    background-color: #494949;
+  }
+
 }
 }
