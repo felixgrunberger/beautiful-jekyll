@@ -79,7 +79,7 @@ body {
   background: #FFF;
   font-family: "Courier-Pitch";*/
   /**/
-  background: #EAE7DC;
+  background: #FFFFFF;
   font-family: "Roboto-Regular";
   font-size: 18px;
   line-height: 24px;
@@ -91,7 +91,7 @@ body {
 p {
   line-height: 1.5;
   margin: 30px 0;
-  background: #EAE7DC;
+  background: #FFFFFF;
   font-family: "Roboto-Regular";
   font-size: 15px;
   line-height: 24px;
@@ -215,7 +215,7 @@ img {
   /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   font-family: "Roboto-Medium";
   text-transform: uppercase;
-  color: #EAE7DC;
+  color: #FFFFFF;
   font-size: 35px;
   line-height: 65px;
   letter-spacing: 5px;
@@ -234,7 +234,7 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 10;
-  color: #EAE7DC;
+  color: #FFFFFF;
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -402,7 +402,7 @@ img {
   .navbar-custom .nav .navlinks-container .navlinks-children a {
     padding-left: 10px;
     background-color: #E85A4F;
-    color: #EAE7DC;
+    color: #FFFFFF;
     /*border: 1px solid #eaeaea;
     border-width: 0 1px 1px;*/
   }
@@ -419,7 +419,7 @@ img {
 
 footer {
   padding: 30px 0;
-  background: #EAE7DC;;
+  background: #FFFFFF;;
   border-top: 1px #494949 solid;
   margin-top: 50px;
   font-size: 14px;
@@ -546,7 +546,7 @@ footer .theme-by {
 
 .post-read-more {
   background-color: #E85A4F;
-  color: #EAE7DC;
+  color: #FFFFFF;
 }
 
 .post-read-more a {
@@ -556,7 +556,7 @@ footer .theme-by {
   color: initial;
   appearance: button;
   background-color: #E85A4F;
-  color: #EAE7DC;
+  color: #FFFFFF;
 }
 
 @media only screen and (min-width: 768px) {
@@ -952,7 +952,7 @@ td.gutter {
 }
 
 .buttonfx:before{
-  background: #EAE7DC; /* button default background color */
+  background: #FFFFFF; /* button default background color */
   z-index: -2;
   transform: translate3D(0,0,0);
 }
