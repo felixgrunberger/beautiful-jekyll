@@ -1017,6 +1017,7 @@ td.gutter {
   }
   .navbar-custom .nav .navlinks-container.show-children .navlinks-children {
     display: block;
+    background: #E85A4F;
   }
 }
 
@@ -1065,10 +1066,27 @@ td.gutter {
   text-transform: uppercase;
   font-size: 25px;
   letter-spacing: 4px;
+  text-align: center;
   }
   
   
   h4 {
     font-size: 14px;
   }
+  
+  .navbar-custom .nav .navlinks-container .navlinks-children a {
+    padding-left: 10px;
+    background-color: #E85A4F;
+    color: #FFFFFF;
+    /*border: 1px solid #eaeaea;
+    border-width: 0 1px 1px;*/
+  }
+  .nav .navlinks-container .navlinks-children a:hover {
+  color: #494949;
+  background-color: #E98074;
+  }
+  .navlinks-parent {
+    background-color: #494949;
+  }
+}
 }
