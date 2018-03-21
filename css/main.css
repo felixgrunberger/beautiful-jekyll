@@ -1075,6 +1075,10 @@ td.gutter {
     width: 100%;
   }
   
+  .post-heading h1{
+    text-align: left;
+  }
+  
   h1 {
   font-family: "Rubik-Bold";
   text-transform: uppercase;
@@ -1133,7 +1137,7 @@ td.gutter {
     width: 100%;
   }
   
-
+  
   
   .post-image, .post-image img {
     height: 60px;
