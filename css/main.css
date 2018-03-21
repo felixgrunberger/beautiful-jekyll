@@ -1050,7 +1050,7 @@ td.gutter {
 
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 320px) {
 
   .header-section.has-img .intro-header.no-img {
     display: block;
@@ -1133,9 +1133,7 @@ td.gutter {
     width: 100%;
   }
   
-  .post-heading h1{
-    text-align: left;
-  }
+
   
   .post-image, .post-image img {
     height: 60px;
