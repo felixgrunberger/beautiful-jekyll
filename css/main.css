@@ -1133,6 +1133,9 @@ td.gutter {
     width: 100%;
   }
   
+  .post-heading h1{
+    text-align: left;
+  }
   
   .post-image, .post-image img {
     height: 60px;
