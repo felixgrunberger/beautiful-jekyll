@@ -7,6 +7,11 @@ meta-title: "Felix Grünberger - PhD candidate Biology at the University of Rege
 <div id="aboutme-section">
 
 <p class="about-text">
+<span class="fa fa-male about-icon"></span>
+  Hi, I´m Felix and 28 years old.
+</p>
+
+<p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
   Currently I am a PhD student at the <a target="_blank" href = "http://www.uni-r.de/index.html.en">University of Regensburg</a> pursuing a Phd in <strong>Biology</strong>, working on gene regulatory networks in archaea. 
 </p>
@@ -24,5 +29,10 @@ During my course of studies I became interested in bioinformatics and finished a
 <p class="about-text">
 <span class="fa fa-heart about-icon"></span>
 I´m very easily bored, so my interests are broad. Sports, HTML/CSS/JAVASCRIPT for fun (look at this blog...), photography (all pictures on the blog by myself), etc. 
+</p>
+
+<p class="about-text">
+<span class="fa fa-hand-peace-o about-icon"></span>
+I´m excited about running my first marathon in Berlin this year. 
 </p>
 
