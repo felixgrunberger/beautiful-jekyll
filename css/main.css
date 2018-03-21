@@ -1050,7 +1050,7 @@ td.gutter {
 
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
 
   .header-section.has-img .intro-header.no-img {
     display: block;
