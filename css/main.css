@@ -506,7 +506,7 @@ footer .theme-by {
 .post-preview .post-entry {
   font-family: "Roboto-Light",'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
-  width: 70%;
+  width: 100%;
 }
 .post-entry-container {
   display: inline-block;
@@ -1048,19 +1048,7 @@ td.gutter {
 }
 
 
-@media only screen and (max-width: 500px) {
-  .post-image, .post-image img {
-    height: 100px;
-    width: 100px;
-  }
-  
-  .post-image {
-    width: 100%;
-    text-align: center;
-    margin-top: 0;
-    float: left;
-  }
-}
+
 
 @media only screen and (max-width: 320px) {
 
@@ -1138,4 +1126,23 @@ td.gutter {
     background-color: #494949;
   }
 
+}
+
+@media screen and (max-width: 500px) {
+  .post-preview {
+    width: 100%;
+  }
+  
+  
+  .post-image, .post-image img {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+  }
+  
+  .post-image {
+    text-align: left;
+    margin-top: 0;
+    float: left;
+  }
 }
