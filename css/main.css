@@ -1088,6 +1088,11 @@ td.gutter {
   .navlinks-parent {
     background-color: #494949;
   }
+  
+  .post-preview .post-entry {
+  width: 100%;
+}
+  
 }
 
 @media screen and (max-width: 812px) and (orientation: landscape) { 
