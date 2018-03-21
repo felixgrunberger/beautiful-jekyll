@@ -1090,7 +1090,7 @@ td.gutter {
   }
 }
 
-@media only screen and (orientation: landscape) { 
+@media screen and (max-width: 812px) and (orientation: landscape) { 
   .navbar-custom .nav .navlinks-container .navlinks-children a {
     padding-left: 10px;
     background-color: #E85A4F;
