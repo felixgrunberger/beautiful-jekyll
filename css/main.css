@@ -81,7 +81,7 @@ body {
   /**/
   background: #FFFFFF;
   font-family: "Roboto-Regular";
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   position: relative;
   z-index: 4;
@@ -1074,6 +1074,7 @@ td.gutter {
     font-size: 14px;
   }
   
+  
   .navbar-custom .nav .navlinks-container .navlinks-children a {
     padding-left: 10px;
     background-color: #E85A4F;
@@ -1089,11 +1090,11 @@ td.gutter {
     background-color: #494949;
   }
   
-  .post-preview .post-entry {
-  width: 100%;
+
+ 
+ 
 }
-  
-}
+
 
 @media screen and (max-width: 812px) and (orientation: landscape) { 
   .navbar-custom .nav .navlinks-container .navlinks-children a {

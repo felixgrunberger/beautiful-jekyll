@@ -48,7 +48,8 @@ bigimg: "/img/master_background.png"
 <br>
 <br>
 </div>
-<div class="posts-list">
+
+  <div class="posts-list">
   {% for post in paginator.posts %}
 	{% seo %}
   <article class="post-preview">
@@ -61,6 +62,7 @@ bigimg: "/img/master_background.png"
 	  </h3>
 	  {% endif %}
     </a>
+
 
     <p class="post-meta">
       Posted on {{ post.date | date: "%B %-d, %Y" }}
@@ -82,6 +84,7 @@ bigimg: "/img/master_background.png"
         {% endif %}
       </div>
     </div>
+ 
 
     {% if post.tags.size > 0 %}
     <div class="blog-tags">
@@ -95,10 +98,11 @@ bigimg: "/img/master_background.png"
       {% endif %}
     </div>
     {% endif %}
-
    </article>
   {% endfor %}
 </div>
+
+
 
 {% if paginator.total_pages > 1 %}
 <ul class="pager main-pager">
