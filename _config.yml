@@ -15,7 +15,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: from bench to bioinformatics
+title-img: "/img/b_logo_bright.png"
 
 # Short description of your site
 description: Personal Blog of Felix Grünberger (PhD candidate in Biology, programming beginner)
@@ -30,7 +30,7 @@ navbar-links:
   - Twitter: "http://twitter.com/FelixGrunberger"
   - LinkedIn: "http://www.linkedin.com/in/felix-grünberger-b93455111"
   - Strava: "strava"
-  About Me: "aboutme"
+  About Me/contact: "aboutme"
 
   
   
@@ -214,6 +214,7 @@ gems:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
+  
   
 #add SEO for github pages
 plugins_dir:

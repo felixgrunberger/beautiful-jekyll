@@ -1,12 +1,11 @@
 ---
 layout: page
-title: "from bench to bioinformatics"
-subtitle: a guide
+title: from bench<br> to bioinformatics
+subtitle: a user experience
 meta-title: bioinformatics
 use-site-title: true
-bigimg: "/img/bench_bioinformatics.png"
+bigimg: "/img/master_background.png"
 ---
-
 
 
 <!-- Typed.js --> 
@@ -15,7 +14,7 @@ bigimg: "/img/bench_bioinformatics.png"
 <script>
   $(function(){
     $(".typed").typed({
-      strings: ["Science.","R.","Biology.", "Visualization."],
+      strings: ["Science.","R.","Bioinformatics."],
       typeSpeed: 100,
       loop: true,
       backDelay: 1000
@@ -27,7 +26,7 @@ bigimg: "/img/bench_bioinformatics.png"
   <div class="row">
     <div class="col-sm-12">
       <div class="text-center">
-           <h1>I write about <span class="typed" style="color:#a50509";></span></h1> 
+           <h4>blogging about daily struggles with <span class="typed" style="color:#E85A4F;text-transform: uppercase;";></span></h4> 
       </div>
     </div>
   </div>
@@ -36,15 +35,19 @@ bigimg: "/img/bench_bioinformatics.png"
 <!-- horizontal line --> 
 <br>
 <br>
+<div class="first-page">
 <hr/>
 
+
+
 <!-- short description comes here --> 
-<p>Notes on learning R and Python for bioinformatics, genomic data analysis, how we let technology in our lives and ways to present all kinds of data.</p>
+<p>Notes on how to use R for bioinformatics (and how I got there), genomic data analysis, data visualization and more random stuff.</p>
 
 <!-- horizontal line --> 
 <hr/>
 <br>
 <br>
+</div>
 <div class="posts-list">
   {% for post in paginator.posts %}
 	{% seo %}
@@ -75,7 +78,7 @@ bigimg: "/img/bench_bioinformatics.png"
         {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
         {% assign excerpt_word_count = post.excerpt | number_of_words %}
         {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="buttonfx slideleft bouncein">[Read&nbsp;More]</a>
         {% endif %}
       </div>
     </div>

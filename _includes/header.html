@@ -18,6 +18,8 @@
   ></div>
 {% endif %}
 
+
+
 <header class="header-section {% if page.bigimg %}has-img{% endif %}">
 {% if page.bigimg %}
 <div class="big-img intro-header">
@@ -31,7 +33,7 @@
             <hr class="small">
             <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
 			{% else %}
-			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
+			<h3 class="{{ include.type }}-subheading">{{ page.subtitle }}</h3>
 			{% endif %}
 		  {% endif %}
 		  
@@ -56,7 +58,7 @@
             <hr class="small">
             <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
 			{% else %}
-			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
+			<h3 class="{{ include.type }}-subheading">{{ page.subtitle }}</h3>
 			{% endif %}
 		  {% endif %}
 		  

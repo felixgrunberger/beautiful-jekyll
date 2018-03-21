@@ -1,6 +1,7 @@
 
 // Dean Attali / Beautiful Jekyll 2016
 
+
 var main = {
 
   bigImgEl : null,
@@ -15,6 +16,8 @@ var main = {
             $(".navbar").removeClass("top-nav-short");
         }
     });
+    
+    // paralax background image
     
     // On mobile, hide the avatar when expanding the navbar menu
     $('#main-navbar').on('show.bs.collapse', function () {
