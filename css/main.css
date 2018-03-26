@@ -659,7 +659,7 @@ footer .theme-by {
   color: #FFFFFF;
 }
 
-.post-heading .post-subheading{
+.post-heading .post-subheading h3{
   color: #000000;
 }
 
@@ -1101,8 +1101,12 @@ td.gutter {
   color: #FFFFFF;
   }
   
-   .post-heading .post-subheading{
-    color: #000000;
+   .post-heading h1{
+      color: #000000;
+  }
+     
+    .post-subheading h3{
+      color: #000000;
   }
   
   h4 {
