@@ -660,7 +660,7 @@ footer .theme-by {
 }
 
 .post-heading .post-subheading{
-  color: #EEE;
+  color: #000000;
 }
 
 .intro-header .post-heading .post-subheading {
@@ -1090,13 +1090,17 @@ td.gutter {
     text-align: left;
   }
   
+  .post-heading .post-subheading{
+    color: #000000;
+  }
+  
   h1 {
   font-family: "Rubik-Bold";
   text-transform: uppercase;
   font-size: 25px;
   letter-spacing: 4px;
   text-align: center;
-  color: #FFFFFF;
+  color: #000000;;
   }
   
   
