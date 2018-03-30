@@ -70,7 +70,6 @@
 }
 
 /* --- General --- */
-
 body {
   /*font-family: 'Lora', 'Times New Roman', serif;*/
   /*font-size: 18px;
@@ -113,6 +112,8 @@ p {
   color: black;
   letter-spacing: -0.5px 
 }
+
+
 
 ul {
   font-size: 16px;  
@@ -636,25 +637,10 @@ footer .theme-by {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media only screen and (max-width: 600px;){
-.intro-header.big-img {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  
-  -o-background-size: cover;
-  margin-top: 51px;   /* The small navbar is 50px tall + 1px border */
-  margin-bottom: -17%;
-  /* Create the parallax scrolling effect */
-  /*background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;*/
-}
-  
-}
-}
 
-.intro-header .big-img  .big-img-transition {
+
+
+.intro-header.big-img  .big-img-transition {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -948,9 +934,6 @@ td.gutter {
 
 
 /* --- Typed.js --- */
-.typed-js-hide h4{
-}
-
 .typed-cursor {
   opacity: 1;
   font-weight: 100;
@@ -1103,7 +1086,7 @@ td.gutter {
 /* SMARTPHONE ---------*/
 @media only screen and (max-width: 320px) { 
   .intro-header.big-img {
-    height: 200px;
+    height: 100%;
   }
 }
 
