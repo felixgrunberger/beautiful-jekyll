@@ -101,15 +101,20 @@ p {
   letter-spacing: -0.5px
 }
 
-.first-page p{
+.typed-js-hide { 
+  padding: 25% 0 0 0;
+}
+
+
+.page-heading p{
   line-height: 1.5;
-  margin: 30px 0;
   font-family: "Roboto-Regular";
   font-size: 16px;
   line-height: 24px;
   position: relative;
+  padding: 5% 0 0 0;
   z-index: 4;
-  color: black;
+  color: #FFFFFF;
   letter-spacing: -0.5px 
 }
 
@@ -170,9 +175,11 @@ hr.small {
   border-radius: 3px;
 }
 
-.main-content {
-  padding-top: 80px;
+.first-page .posts-list{
+  postition: absolute;
+  padding: 25% 0 0 0;
 }
+
 @media only screen and (min-width: 768px) {
   .main-content {
     padding-top: 130px;
@@ -433,6 +440,7 @@ img {
 /* --- Footer --- */
 
 footer {
+  width: 100%;
   padding: 30px 0;
   background: #040D14;
   border-top: 1px #040D14 solid;
@@ -462,7 +470,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   footer {
-    padding: 50px 0;
+    padding: 0px 0;
   }
   footer .footer-links {
     font-size: 18px;
@@ -740,7 +748,7 @@ footer .theme-by {
   }	
   .intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading  {
-    padding: 170px 0;
+    padding: 15% 0;
   }  
   .intro-header .page-heading h1 {
     font-size: 45px;
@@ -1084,8 +1092,35 @@ td.gutter {
 
 
 /* SMARTPHONE ---------*/
-@media only screen and (max-width: 767px) { 
-  /*
+@media only screen and (max-width : 375px) and (max-height : 812px) {
+    .first-page p {
+      color: black;
+    }
+
+    h1 {
+      color: #FFFFFF;
+  }
+   .typed-js {
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 100%;
+  }
+  
+  .intro-header.big-img {
+   background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+  
+}
+    
+/*@media only screen and (max-width: 767px) { 
+  
   .intro-header.big-img {
     height: 70%;
     background: no-repeat center center fixed;
@@ -1113,7 +1148,7 @@ td.gutter {
 }
 
 
-
+/*
 
 @media only screen and (max-width: 320px) {
 
@@ -1125,6 +1160,7 @@ td.gutter {
     height: 220px;
   }
   */
+  /*
   .intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading {
     display: none;
@@ -1133,9 +1169,9 @@ td.gutter {
     margin-bottom: 0;
   }  
 } 
-
+*/
 @media screen and (max-width: 700px) {
-  .typed-js-hide {
+  /*.typed-js-hide {
     float: left;
     margin: 10px auto 5px 20px;
     width: 100%;
@@ -1168,7 +1204,7 @@ td.gutter {
     font-size: 14px;
   }
   
-  
+  */
   .navbar-custom .nav .navlinks-container .navlinks-children a {
     padding-left: 10px;
     background-color: #21CE99;
@@ -1228,19 +1264,8 @@ td.gutter {
   }
 }
 
-/* iphone 7, 8 */
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) { 
-  .intro-header .big-img {
-   background: no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    overflow: hidden;
-  }
-  
-}
+
+
 
 
 

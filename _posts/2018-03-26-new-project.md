@@ -16,7 +16,6 @@ sitemap:
   priority: 1
   changefreq: 'monthly'
 ---
-<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 
 I started analyzing sequencing data just over one year ago. In the beginning it was so exciting to finally receive the first reads, do some quality checks and start further analysis, that I didn´t think about reproducibility. I ended up with multiple distinct versions of mapped reads, adapter/quality trimmed reads from scripts using different parameters. **It was bad...** <i class="em em-anguished"></i>   
 So I had to force myself to rethink my workflow, which I will show you (*in a simplifed way*) in the following.  
@@ -74,5 +73,5 @@ veriosn control
 
 
 
-
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 
