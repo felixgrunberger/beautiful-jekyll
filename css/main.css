@@ -1085,18 +1085,7 @@ td.gutter {
 
 /* SMARTPHONE ---------*/
 @media only screen and (max-width: 767px) { 
-  /*
-  .intro-header.big-img {
-    height: 70%;
-    background: no-repeat center center fixed;
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-  }
-}
-*/
+
 
 @media only screen and (max-width: 767px) {
   .navbar-custom .nav .navlinks-container.show-children {
@@ -1227,3 +1216,24 @@ td.gutter {
     float: left;
   }
 }
+
+/* iphone 7, 8 */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) { 
+  .intro-header.big-img {
+    height: 70%;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+  }
+ 
+ .intro-header {
+   width: 100%;
+ }
+}
+
+
+
+
