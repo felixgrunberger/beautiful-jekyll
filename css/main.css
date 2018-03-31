@@ -1106,13 +1106,14 @@ td.gutter {
   
   .intro-header.big-img:before {
    background: no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-attachment: scroll;
+    background-position: top;
+    background-size: auto;
     overflow: hidden;
-    height: 100%;
-    width: 100%;
+
   }
   
 }
