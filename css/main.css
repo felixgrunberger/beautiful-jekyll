@@ -440,7 +440,6 @@ img {
 /* --- Footer --- */
 
 footer {
-  width: 100%;
   padding: 30px 0;
   background: #040D14;
   border-top: 1px #040D14 solid;
@@ -470,7 +469,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   footer {
-    padding: 0px 0;
+    padding: 50px 0;
   }
   footer .footer-links {
     font-size: 18px;
@@ -1112,7 +1111,6 @@ td.gutter {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: scroll !important;
     overflow: hidden;
     height: 100%;
     width: 100%;
@@ -1244,7 +1242,6 @@ td.gutter {
   }
 
 }
-
 @media screen and (max-width: 500px) {
   .post-preview {
     width: 100%;
@@ -1265,7 +1262,11 @@ td.gutter {
   }
 }
 
-
+footer {
+  position: relative;
+  width:100vw;
+  left: calc(-50vw + 50%);
+}
 
 
 
