@@ -626,7 +626,7 @@ footer .theme-by {
 
 
 /* --- Post and page headers --- */
-
+@media only screen and (min-width: 768px) {
 .intro-header {
   margin: 80px 0 20px;
   position: relative;
@@ -733,7 +733,7 @@ footer .theme-by {
   bottom: 0;
   display: none;
 }
-
+}
 
 @media only screen and (min-width: 768px) {
   .intro-header {
