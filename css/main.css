@@ -1104,33 +1104,15 @@ td.gutter {
     width: 100%;
   }
   
-  .intro-header.big-img:before {
-   background: no-repeat center center fixed;
-    -webkit-background-size: auto;
-    -moz-background-size: auto;
-    -o-background-size: auto;
-    background-attachment: scroll;
-    background-position: top;
-    background-size: auto;
-    overflow: hidden;
-
+  .intro-header.big-img {
+    background-position: contain;
+    height: 100vh;
   }
+
   
 }
     
-/*@media only screen and (max-width: 767px) { 
-  
-  .intro-header.big-img {
-    height: 70%;
-    background: no-repeat center center fixed;
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-  }
-}
-*/
+
 
 @media only screen and (max-width: 767px) {
   .navbar-custom .nav .navlinks-container.show-children {
