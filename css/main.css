@@ -634,7 +634,6 @@ footer .theme-by {
 .intro-header.big-img {
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  
   -o-background-size: cover;
   margin-top: 51px;   /* The small navbar is 50px tall + 1px border */
   margin-bottom: -17%;
@@ -1105,7 +1104,7 @@ td.gutter {
     width: 100%;
   }
   
-  .intro-header.big-img {
+  .intro-header.big-img:before {
    background: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1246,7 +1245,6 @@ td.gutter {
   .post-preview {
     width: 100%;
   }
-  
   
   
   .post-image, .post-image img {
