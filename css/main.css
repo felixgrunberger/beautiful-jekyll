@@ -1266,7 +1266,7 @@ footer {
  /* .header-section.has-img .big-img {
     margin-bottom: 0;*/
   }
-@media screen (max-width:400px) and (orientation:landscape) {
+@media screen and (max-width: 400px) and (orientation: landscape) {
   .intro-header.big-img {
       background: url("/img/master_background_smartphone.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -1279,5 +1279,4 @@ footer {
   }
    
 }
-
 
