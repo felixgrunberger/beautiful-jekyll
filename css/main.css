@@ -1246,11 +1246,12 @@ td.gutter {
     display: block;
   }*/
   .intro-header.big-img {
-    background: url("/img/master_background_smartphone.png") no-repeat center center fixed; 
+    background: url("/img/master_background_smartphone.png") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  object-fit: contain;
 
   }
   /*.intro-header.big-img .page-heading,
@@ -1262,11 +1263,15 @@ td.gutter {
   }
 @media screen and (max-width: 400px) and (orientation: landscape) {
   .intro-header.big-img {
-      background: url("/img/master_background_smartphone.png") no-repeat center center fixed; 
+      background: url("/img/master_background.png") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  object-fit: contain;
+  }
+  .page-heading h1{
+    color: #FFFFFF;
   }
    
 }
