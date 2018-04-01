@@ -1248,21 +1248,29 @@ footer {
 
 /* fix image on smartphones using dean attalis code*/
 @media only screen and (max-width: 400px) {
-  .header-section.has-img .intro-header.no-img {
+ /* .header-section.has-img .intro-header.no-img {
     display: block;
-  }
+  }*/
   .intro-header.big-img {
     background-image: url("../img/master_background_smartphone.png");
-    width: 100%;
-    height: 100%;
+   /* width: 100%;
+    height: 100%;*/
   }
   /*.intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading {
     display: none;
   }*/
-  .header-section.has-img .big-img {
-    margin-bottom: 0;
+ /* .header-section.has-img .big-img {
+    margin-bottom: 0;*/
   }
+@media screen and (orientation:landscape) {
+  .intro-header.big-img {
+      background-image: url("../img/master_background_smartphone.png");
+  }
+  h1{
+    color: white;
+  }
+   
 }
 
 
