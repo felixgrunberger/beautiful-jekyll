@@ -1253,12 +1253,12 @@ footer {
   }
   .intro-header.big-img {
     width: 100%;
-    height: 220px;
+    height: 100%;
   }
-  .intro-header.big-img .page-heading,
+  /*.intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading {
     display: none;
-  }
+  }*/
   .header-section.has-img .big-img {
     margin-bottom: 0;
   }
