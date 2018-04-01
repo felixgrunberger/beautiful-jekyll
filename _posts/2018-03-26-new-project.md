@@ -40,7 +40,8 @@ project_folder=${PWD}
 mkdir -p ${project_folder}/{data,scripts,results,doc}    
 ```
 <br>  
-Once you have done that, simply save your input sequencing data in ```data``` and the genome annotation you use for your analysis in ```data/genome_data```. 
+Once you have done that, simply save your input sequencing data in ```data``` and so on. For example you can put genome annotation data you use for your analysis in ```data/genome_data```.  
+Since you´re already in RStudio it is quite easy to open an *RMarkdown* document to keep track of your code and also thoughts about the different steps (```doc```).  
 
 
 
