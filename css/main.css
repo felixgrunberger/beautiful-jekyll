@@ -630,6 +630,7 @@ footer .theme-by {
 .intro-header {
   margin: 80px 0 20px;
   position: relative;
+  color: #000000;
 }
 .intro-header.big-img {
   -webkit-background-size: cover;
@@ -1274,7 +1275,7 @@ footer {
   -o-background-size: cover;
   background-size: cover;
   }
-  h1{
+  .page-heading h1{
     color: white;
   }
    
