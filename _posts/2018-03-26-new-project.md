@@ -41,19 +41,11 @@ mkdir -p ${project_folder}/{data,scripts,results,doc}
 ```
 <br>  
 Once you have done that, simply save your input sequencing data in ```data``` and so on. For example you can put genome annotation data you use for your analysis in ```data/genome_data```.  
-Since you´re already in RStudio it is quite easy to open an *RMarkdown* document to keep track of your code and also thoughts about the different steps (```doc```).  
+Since you´re already in RStudio it is quite easy to open an *RMarkdown* document to keep track of your code and also thoughts about the different steps (```doc```). The remaining two folder ```scripts``` and ```results``` are self-explanatory, but important for your orgaization so that input files do not get mixed up with annotation files of a following step.   
 
 
 
-
-A bit more complicated :
-Using Rmarkdown and Rproject package
-
-
-data_folder=$project_folder"/data"
-mkdir -p $data_folder/{test_data,raw_data,clean_data,genome_data,mapping_data,qc_data}           
-mkdir -p $data_folder"/mapping_data/"{star,segemehl}
-mkdir -p $data_folder"/genome_data/"{star,segemehl}
+<h2>Using Rmarkdown and Rproject package</h2>   
 
 
 ``` r
@@ -61,7 +53,7 @@ mkdir -p $data_folder"/genome_data/"{star,segemehl}
 install.packages("ProjectTemplate")
 library("ProjectTemplate")
 create.project("../test_project", merge.strategy = "allow.non.conflict")
-setwd("/Users/f/Documents/R/test_project")
+setwd("~/test_project")
 library('ProjectTemplate')
 load.project()
 ```
