@@ -58,7 +58,7 @@ load.project()
 
 <h2> Key message</h2>  
 I keep it simple: Make folders or you get lost...  
-In case you want to get more information you can start by reading a <a target="_blank" href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424">paper published in PLOS computationsl biology</a> or find your own way. 
+In case you want to get more information you can start by reading a <a target="_blank" href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424">paper published in PLOS computationsl biology</a>. Feel free to comment on my workflow <i class="em <i class="em em-slightly_smiling_face></i>.  
 
 
 

@@ -1237,11 +1237,7 @@ td.gutter {
   }
 }
 
-footer {
-  position: relative;
-  width:100vw;
-  left: calc(-50vw + 50%);
-}
+
 
 
 /* fix image on smartphones using dean attalis code*/
@@ -1275,3 +1271,9 @@ footer {
    
 }
 
+
+footer {
+  position: relative;
+  width:100vw;
+  left: calc(-50vw + 50%);
+}
