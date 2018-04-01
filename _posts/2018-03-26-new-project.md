@@ -32,13 +32,16 @@ First, open a new window and create a new project.
 </div>
 <br>
 Within the new RStudio window switch to the embedded **terminal** (new feature since version 1.1). If you are not sure about the version you are actually using you can check this with typing ```RStudio.Version()``` in the RStudio **console**.  
-Since you are already in your new project folder, we can start be making folders for your analysis.  
+Since you are already in your new project folder, we can start be making **4** folders for your analysis.  
 
 ``` bash
 # in RStudio terminal
 project_folder=${PWD}
 mkdir -p ${project_folder}/{data,scripts,results,doc}    
 ```
+<br>  
+Once you have done that, simply save your input sequencing data in ```data``` and the genome annotation you use for your analysis in ```data/genome_data```. 
+
 
 
 
