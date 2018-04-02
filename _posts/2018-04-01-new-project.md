@@ -41,7 +41,7 @@ mkdir -p ${project_folder}/{data,scripts,results,doc}
 ```
 <br>  
 Once you have done that, simply save your input sequencing data in ```data``` and so on. For example you can put genome annotation data you use for your analysis in ```data/genome_data```.  
-Since you´re already in RStudio it is quite easy to open an *RMarkdown* document to keep track of your code and also thoughts about the different steps (```doc```). The remaining two folder ```scripts``` and ```results``` are self-explanatory, but important for your orgaization so that input files do not get mixed up with annotation or any other results files of a following step.   
+Since you´re already in RStudio it is quite easy to open an *RMarkdown* document to keep track of your code and also thoughts about the different steps (```doc```). The remaining two folder ```scripts``` and ```results``` are self-explanatory, but important for your organization so that input files do not get mixed up with annotation or any other results files of a following step.   
 
 <h2>Using Rmarkdown and Rproject package</h2>   
 Actually there is an Rpackage called <a target="_blank" href ="http://projecttemplate.net/getting_started.html">```ProjectTemplate```</a> that is perfectly suited to start any data analysis project. In case you do not want to read full documentation here is how you get started:  
@@ -58,7 +58,7 @@ load.project()
 
 <h2> Key message</h2>  
 I keep it simple: Make folders or you get lost...  
-In case you want to get more information you can start by reading a <a target="_blank" href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424">paper published in PLOS computationsl biology</a>. Feel free to comment on my workflow <i class="em <i class="em em-slightly_smiling_face></i>.  
+In case you want to get more information you can start by reading a <a target="_blank" href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424">paper published in PLOS computationsl biology</a>. Feel free to comment on my workflow <i class="em em-slightly_smiling_face></i>.  
 
 
 
