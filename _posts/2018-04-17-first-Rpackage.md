@@ -14,7 +14,7 @@ sitemap:
   changefreq: monthly
   lastmod: '2018-04-17'
   priority: 1
-subtitle: A workflow using `devtools`, `roxygen2`, `RStudio` and `github`
+subtitle: A workflow using devtools, roxygen2, RStudio and github
 tags:
 - RPackage
 - roxygen2
@@ -31,7 +31,7 @@ The workflow behind finding and using new packages is almost too natural to writ
 <ul>
   <li>Step 1: I have a problem in `R`, which I can´t solve in 10 seconds</li>
   <li>Step 2: I google if there is already a solution to this problem</li>
-  <li>Step 3: In ~99 % there is acutally already a solution</li>
+  <li>Step 3: In ~99 % there is actually a package dealing with this problem</li>
   <li>Step 4: I look at the documentation</li>
   <li>Step 5: I download the package</li>
   <li>Step 6: I use it on my own data</li>  
@@ -41,8 +41,8 @@ The workflow behind finding and using new packages is almost too natural to writ
 As you can see there is no way to avoid packages and no reason to.   
 **But have you ever written your own package?**  
 I am just curious. Because until recently I myself actually did not. It came up to my mind when I was working on quality control plots of Nanopore sequencing data, where I had some functions written, but I had to reload them every single time before using. I was so sick of it. And that´s why I decided to package the functions.  
-In this post I do not want to show you my NanoporeQC package (*I will cover this topic in a future post*), but simply share my thoughts in writing your first **R package** on an easy example.  
-A warning: It will not be perfect, but hey what is perfect anyway? And you have to start somewhere. For those interested I highly recommend this awesome <a target= "_blank" href="http://r-pkgs.had.co.nz">book</a> by Hadley Wickham.  
+In this post I do not want to show you my NanoporeQC package (*I will cover this topic in a future post*), but simply share my thoughts in writing your first **R package** with a very easy (and useless) example.  
+A warning: It will not be perfect, but hey what is perfect anyway? And you have to start somewhere. For those interested, I highly recommend this awesome <a target= "_blank" href="http://r-pkgs.had.co.nz">book</a> by Hadley Wickham.  
 Let´s get started:  
 
 <h2> Example task </h2>  
