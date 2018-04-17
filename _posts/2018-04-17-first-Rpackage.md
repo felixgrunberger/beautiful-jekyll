@@ -85,7 +85,7 @@ $60
 We want to use this pretty useful function over and over again, without reloading it from source every single time. You could also think about using more arithmetic functionalities like `mean`, `median` or `prod`, which would make re-loading even more complicated. If there only was a simple workflow for building a package?!... (*I know these functions already exist, let´s just pretend..*)
 
 <h2> How to package it? </h2>  
-Open a new project in RStudio with *project type* `R package` (with the option to create a git repository). Automatically a few files are generated: *DESCRIPTION*, *NAMESPACE* and two folders *man* and *R*. You can check out all of these files in my <a target=_blank" href="https://github.com/felixgrunberger/sumR">github repository</a> so you know what I am talking about.  
+Open a new project in RStudio with *project type* `R package` (with the option to create a git repository). Automatically a few files are generated: *DESCRIPTION*, *NAMESPACE* and two folders *man* and *R*. You can check out all of these files in my <a target="_blank" href="https://github.com/felixgrunberger/sumR">github repository</a> so you know what I am talking about.  
 Witout proper documentation, users won´t know how to use our package and you probably want to make life easier not only for yourself. The goal of <a href="https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html" target="_blank">roxygen2</a> is to make documentation as simple as possible.  
 First, you have to create the `R` file containing the function `sum_numbers` we wrote in the upper part. The `.R` file in the **R** folder should look something like this:  
 
