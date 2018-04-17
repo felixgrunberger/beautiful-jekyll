@@ -1,11 +1,11 @@
 ---
-title: "Write your first simple R package"
+title: "Write your first R package"
 comments: 'true'
 date: "2018-04-17 10:00:00 +0100"
 output:
   html_document:
     df_print: paged
-image: /img/r_package.png
+image: /img/packages_new.png
 layout: post
 description: Start writing your first R package using devtools, roxygen2 and github
 show-share: 'true'
