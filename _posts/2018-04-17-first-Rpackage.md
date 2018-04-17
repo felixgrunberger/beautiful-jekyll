@@ -17,8 +17,9 @@ sitemap:
 subtitle: A workflow using `devtools`, `roxygen2`, `RStudio` and `github`
 tags:
 - RPackage
-- ggplot
-- R
+- roxygen2
+- RStudio
+- devtools
 categories: new_project
 ---
 
@@ -47,7 +48,7 @@ Let´s get started:
 <h2> Example task </h2>  
 Imagine there are no arithmetic functions in `R`. We want to write our own `sum` function that takes a vector of numbers as input and simply sums them up.     
 
-```r
+``` r
 # set seed
 set.seed(seed = 1)
 
@@ -56,10 +57,16 @@ example_numbers <- sample(x = 10,size = 10, replace = T)
 
 # take a quick glance at the example numbers generated
 example_numbers
-
+```
+[1]  3  4  6 10  3  9 10  7  7  1
+<br>
+```r
 # usual way to sum up numbers in R
 sum(example_numbers)
-
+```
+60
+<br>
+```r
 # own function to sum up numeric values
 sum_numbers <- function(input_data){
   sum <- 0
@@ -72,6 +79,7 @@ sum_numbers <- function(input_data){
 # with own function
 sum_numbers(example_numbers)
 ```
+60
 <br>
 We want to use this pretty useful function over and over again, without reloading it from source every single time. You could also think about using more arithmetic functionalities like `mean`, `median` or `prod`, which would make re-loading even more complicated. If there only was a simple workflow for building a package?!... (*I know these functions already exist, let´s just pretend..*)
 
@@ -164,8 +172,13 @@ devtools::install_github("felixgrunberger/sumR")
 set.seed(seed = 1)
 example_numbers <- sample(x = 10,size = 10, replace = T)
 example_numbers
+```
+[1]  3  4  6 10  3  9 10  7  7  1
+```r
 sumR::sum_numbers(example_numbers)
 ```
+60
+<br>
 And that´s it!  
 I started my first package by copying an existing one from github, modifying the functions, adding comments and adding it to my own github. Maybe some of you can also follow this workflow and then dig deeper into making packages with R!
 
