@@ -472,9 +472,10 @@ footer .theme-by {
 }
 
 @media only screen and (min-width: 768px) {
-  footer {
-    padding: 50px 0;
-  }
+  /*footer {
+    /*'padding: 50px 0;*/
+  /*}*/
+  
   footer .footer-links {
     font-size: 18px;
   }
