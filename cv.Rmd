@@ -11,5 +11,5 @@ library(plotly)
 # Graph the cars vector with all defaults
 carplot <- ggplot(data = mtcars, aes(x = mpg, y = cyl)) +
   geom_point()
-ggplotly(carplot)
+carplot
 ```
