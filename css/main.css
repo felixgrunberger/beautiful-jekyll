@@ -440,6 +440,10 @@ img {
 /* --- Footer --- */
 
 footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
   padding: 30px 0;
   background: #040D14;
   border-top: 1px #040D14 solid;
