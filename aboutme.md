@@ -8,7 +8,7 @@ meta-title: "Felix Grünberger - PhD candidate Biology at the University of Rege
 
 <p class="about-text">
 <span class="fa fa-male about-icon"></span>
-  Hi, I´m Felix and 28 years old.
+  Hi, I´m Felix and I´m 29 years old.
 </p>
 
 <p class="about-text">
