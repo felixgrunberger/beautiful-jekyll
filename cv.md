@@ -1,12 +1,20 @@
 ---
 layout: "page"
 title: "CV"
-meta-title: "Felix Grünberger - PhD candidate Biology at the University of Regensburg"
+meta-title: "Felix Grünberger - CV"
 ---
 
-<div id="aboutme-section">
+```{r}
+# Source: http://www.htmlwidgets.org/showcase_plotly.html
+library(plotly)
+p <- ggplot(data = diamonds, aes(x = cut, fill = clarity)) +
+            geom_bar(position = "dodge")
+ggplotly(p)
+```
 
-<p class="about-text">
+<!-- <div id="aboutme-section">
+
+ <p class="about-text">
 <span class="fa fa-male about-icon"></span>
   Hi, I´m Felix and I´m 29 years old.
 </p>
@@ -36,3 +44,4 @@ I´m very easily bored, so my interests are broad. Sports, HTML/CSS/JAVASCRIPT f
 I´m excited about running my first marathon in Berlin this year. 
 </p>
 
+-->
