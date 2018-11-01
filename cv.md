@@ -2,7 +2,7 @@
 layout:
 title: "CV"
 meta-title: "Felix Grünberger - CV"
-output: html_document
+output: github_document
 runtime: shiny
 ---
 
