@@ -8,7 +8,7 @@ meta-title: "Felix Grünberger - my CV"
 
 <p class="about-text">
 <span class="fas fa-certificate"></span>
-  Visit my interactive CV at: <a href = "www.google.de">soon available!</a>
+  Visit my interactive CV <a href="https://felixgrunberger.shinyapps.io/MyShinyCV/">here</a>!
 </p>
 
 
