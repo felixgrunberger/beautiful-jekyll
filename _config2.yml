@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 url: "https://felixgrunberger.github.io"
-enforce_ssl: "felixgrunberger.com"
+#enforce_ssl: "felixgrunberger.com"
 baseurl: ""
 
 # Brief name and description of the site
